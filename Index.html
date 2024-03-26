@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./Estilo.css"
+  <title>formularios</title>
+</head>
+<body>
+  
+  <h1>formularios</h1>
+  <form action="./index.html">
+ <!--especie de titulo para o nosso input -->
+ 
+ <label for="email"> E-mail </label>
+ <!--Serve para inserir dados para nossa aplicação-->
+ 
+ <!--Abributo style="" ele deixa cada input em baixo do outro-->
+ 
+ <!--Abributo type="" serve para indicar o tipo do campo do input-->
+ 
+ <!--Abributo placeholder="" coloca uma informação no campo do input ao digitar no campo ele some-->
+ 
+<input type="email" id="email" name="email" placeholder="coloque um email válido" style="display: block;">
+
+<!--campo texto-->
+<label for="text"> texto </label>
+
+<input type="text" id="text" name="text" style="display: block">
+    
+    <!--campo checkbook-->
+    <label for="checkbook"> checkbook </label>
+    
+    <input type="checkbox"  id="checkbox" name="checkbox" style="display: block;">
+    
+    <!--Campo Rádio-->
+    <label for="radio"> Masculino </label>
+    
+  <input type="radio" name="sexo" id="radio" value="masculino" style="display: block;">
+    
+  <label for="radio1"> Feminino </label>
+  
+  <input type="radio" name="sexo" id="radio1" value="feminino" style="display: block;">
+    
+ <label for="radio2"> Outro </label>
+ 
+  <input type="radio" name="sexo" id="radio2" value="outro" style="display: block;">
+    
+    <!--Campo Range-->
+    <label for="range">Range</label>
+    
+    <input style="display: block;" id="range" type="range" name="range">
+    
+    <!--Campo Number-->
+    <label for="Number">Nùmero</label>
+    
+    <input style="display: block;" id="Number" type="number" name="number">
+    
+    <!--Campo Arquivo-->
+    <label for="file">Arquivo</label>
+    
+    <input style="display: block;" id="file" type="file" name="file">
+    
+    <!--Campo Data-->
+    <label for="date">Data</label>
+    
+    <input style="display: block;" id="date" type="date" name="date">
+    
+    <br>
+    <!--Campo Select apenas escolher um valor no Select importante value ele que vai ser enviado pelo paramento-->
+    <select style="display: block;" name="dia da semana">
+      
+     <<option value="domingo">domingo</option>
+  <option value="segunda-feira"> segunda-feira</option>
+      <option value="terça-feira">terça-feira</option>
+      <option value="quarta-feira">quarta-feira</option>
+      <option value="quinta-feira">quinta-feira</option>
+      <option value="sexta-feira">sexta-feira</option>
+      <option value="sabado">sábado</option>
+      
+    </select>
+    
+   <textarea style="display: block;" name="mensagen" id="mensagen" cols="30" rows="10">
+   </textarea>
+   
+   <button>Enviar</button>
+    
+    
+  </form>
+</body>
+</html>
